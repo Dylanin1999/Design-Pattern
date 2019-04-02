@@ -19,6 +19,6 @@
 
 
 ****
-FileSplitter.cpp  MainForm.cpp  -> 普通写法（紧耦合）
-FileSplitter1.cpp  MainForm1.cpp -> 观察者模式的初级写法（只支持一个对象订阅通知）
-FileSplitter2.cpp  MainForm2.cpp -> 观察者模式的完备写法（支持多个对象订阅通知）
+FileSplitter.cpp  MainForm.cpp  -> 普通写法（紧耦合）  
+FileSplitter1.cpp  MainForm1.cpp -> 观察者模式的初级写法（只支持一个对象订阅通知）  
+FileSplitter2.cpp  MainForm2.cpp -> 观察者模式的完备写法（支持多个对象订阅通知）  
