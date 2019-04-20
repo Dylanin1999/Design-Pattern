@@ -19,11 +19,9 @@ Decorator类在接口上表现为is-a Component的继承关系，即Decorator类
 Decorator模式的目的并非解决“多子类衍生的多继承”问题，Decorator模式引用的要点在于解决“主体类在多个方向上的扩展功能”————是为“装饰”的含义
 
 
-装饰者模式：
----------
+## 装饰者模式：
 ![Image text](https://github.com/Dylanin1999/Design-Pattern/blob/master/Decorator%EF%BC%88%E8%A3%85%E9%A5%B0%E6%A8%A1%E5%BC%8F%EF%BC%89/img/Decorator.png)
 
 
-普通写法：
----------
-
+## 普通写法：
+![Image text](https://github.com/Dylanin1999/Design-Pattern/blob/master/Decorator%EF%BC%88%E8%A3%85%E9%A5%B0%E6%A8%A1%E5%BC%8F%EF%BC%89/img/Normal.png)
