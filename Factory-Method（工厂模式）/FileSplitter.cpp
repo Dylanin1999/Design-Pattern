@@ -2,24 +2,25 @@ class ISplitter
 {
 public:
     virtual void split()=0;
+    virtual ~ISplitter(){}
 };
 
-class BinarySplitter
+class BinarySplitter:public ISplitter
 {
 
 };
 
-class TxtSplitter
+class TxtSplitter:public ISplitter
 {
 
 };
 
-class PictureSplitter
+class PictureSplitter:public ISplitter
 {
 
 };
 
-class VideoSplitter
+class VideoSplitter:public ISplitter
 {
 
 };
